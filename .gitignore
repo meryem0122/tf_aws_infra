@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+tfplan
+plan_output.txt
+terraform.tfvars
+
+# Node / app
+app/node_modules/
+app/npm-debug.log
+
+# Divers
+myjournal.md
